@@ -30,14 +30,17 @@ public class UiMagicCreation : MonoBehaviour
             case (int)Magic.TypeMagic.Trap:
                 ModifierText.text = "Activation delay:";
                 ModifierValue.placeholder.GetComponent<TextMeshProUGUI>().text = "Default value: 1";
+                ValueModifier("1");
                 break;
             case (int)Magic.TypeMagic.Ball:
                 ModifierText.text = "Flight speed:";
                 ModifierValue.placeholder.GetComponent<TextMeshProUGUI>().text = "Default value: 10";
+                ValueModifier("10");
                 break;
             case (int)Magic.TypeMagic.Target:
                 ModifierText.text = "Target distance:";
                 ModifierValue.placeholder.GetComponent<TextMeshProUGUI>().text = "Default value: 30";
+                ValueModifier("30");
                 break;
             default:
                 break;

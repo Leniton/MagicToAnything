@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Entities
+    uniqueID: 2026245133
+    locked: 0
+  - name: Canvas
+    uniqueID: 1301185453
+    locked: 0

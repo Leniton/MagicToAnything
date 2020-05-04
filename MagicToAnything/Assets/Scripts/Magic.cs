@@ -27,11 +27,11 @@ public class Magic : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Moving)
+        /*if (Moving)
         {
             transform.Translate(transform.forward * 1 * TypeM * Time.deltaTime);
             Debug.DrawLine(transform.position, transform.forward * 8, Color.white, 0.1f);
-        }
+        }*/
     }
 
     public void Activate()
@@ -43,10 +43,10 @@ public class Magic : MonoBehaviour
                 StartCoroutine(MagicTrap());
                 break;
             case TypeMagic.Ball:
-                MagicBall();
+                StartCoroutine(MagicBall());
                 break;
             case TypeMagic.Target:
-                MagicTarget();
+                StartCoroutine(MagicTarget());
                 break;
             default:
                 break;
@@ -77,21 +77,34 @@ public class Magic : MonoBehaviour
             time += Time.deltaTime;
         } while (time < TypeM);
         
-        GetComponent<Collider>().enabled = true;
+        GetComponent<Collider2D>().enabled = true;
         Destroy(gameObject, 0.5f);
     }
 
-    void MagicBall()
+    IEnumerator MagicBall()
     {
         //PRECISA DE TESTE!!
         //gameObject.AddComponent<SphereCollider>();
         //transform.Rotate(45, 0, 0);
-        Moving = true;
+        //Moving = true;
+        yield return null;
+
+        //print("ball cast");
+        //print(transform.eulerAngles);
+
+        GetComponent<Rigidbody2D>().AddForce(transform.up * TypeM, ForceMode2D.Impulse);
+
+        Destroy(gameObject, 3);
     }
 
-    void MagicTarget()
+    IEnumerator MagicTarget()
     {
+        yield return null;
+        print("got you!! " + transform.parent);
+        yield return new WaitForSeconds(1);
+        //aplicar efeito
 
+        Destroy(gameObject);
     }
     #endregion
 
@@ -104,7 +117,7 @@ public class Magic : MonoBehaviour
         switch (Efeito)
         {
             case EffectMagic.Wind:
-                Wind(c.GetComponent<Rigidbody>());
+                Wind(c.GetComponent<Rigidbody2D>());
                 break;
             case EffectMagic.Damage:
                 break;
@@ -115,13 +128,18 @@ public class Magic : MonoBehaviour
             default:
                 break;
         }
+        if(Tipo == TypeMagic.Ball)
+        {
+            Destroy(gameObject);
+        }
     }
 
+    
     #region Effect
 
-    void Wind(Rigidbody rb)
+    void Wind(Rigidbody2D rb)
     {
-        rb.AddForce(transform.up * 10 * EfffectM, ForceMode.Impulse);
+        //rb.AddForce(transform.up * 10 * EfffectM, ForceMode2D.Impulse);
     }
 
 

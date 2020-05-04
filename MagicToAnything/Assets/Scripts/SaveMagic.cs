@@ -40,6 +40,9 @@ public class SaveMagic : MonoBehaviour
         FileStream file = new FileStream(caminho, FileMode.Create);
         formatter.Serialize(file, data);
         file.Close();
+
+        //adicionar magia
+        Magics = LoadAll();
     }
 
     //Directory.GetFiles(string caminho, "*.extensão");
@@ -49,11 +52,16 @@ public class SaveMagic : MonoBehaviour
         List<MagicData> magicDatas = new List<MagicData>();
         string caminho = Directory.GetCurrentDirectory() + "\\Configs";
 
+        if (!Directory.Exists(caminho))
+        {
+            Directory.CreateDirectory(caminho);
+        }
+
         string[] files = Directory.GetFiles(caminho, "*.mgc");
 
         for (int i = 0; i < files.Length; i++)
         {
-            print(files[i]);
+            //print(files[i]);
             magicDatas.Add(Load(files[i]));
         }
 
