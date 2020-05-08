@@ -1,0 +1,2417 @@
+fileFormatVersion: 2
+guid: 1ee55e1a71d630142b8c69edd1a55ce2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4234527827976283539
+    second: UI and other stuff_0
+  - first:
+      213: 2525148212942739518
+    second: UI and other stuff_1
+  - first:
+      213: -6202681681939415597
+    second: UI and other stuff_2
+  - first:
+      213: -3792240841594615970
+    second: UI and other stuff_3
+  - first:
+      213: -3684214959788732208
+    second: UI and other stuff_4
+  - first:
+      213: 4752920826536808069
+    second: UI and other stuff_5
+  - first:
+      213: -1714214082144683508
+    second: UI and other stuff_6
+  - first:
+      213: 5293450836001938150
+    second: UI and other stuff_7
+  - first:
+      213: -13477975930756375
+    second: UI and other stuff_8
+  - first:
+      213: -5739689170816263120
+    second: UI and other stuff_9
+  - first:
+      213: -5328582028326419919
+    second: UI and other stuff_10
+  - first:
+      213: -5481588408835662670
+    second: UI and other stuff_11
+  - first:
+      213: 3901546799669753861
+    second: UI and other stuff_12
+  - first:
+      213: 944987786193572935
+    second: UI and other stuff_13
+  - first:
+      213: 4286265185534241424
+    second: UI and other stuff_14
+  - first:
+      213: -3408771027495511597
+    second: UI and other stuff_15
+  - first:
+      213: 3041287959233071686
+    second: UI and other stuff_16
+  - first:
+      213: -8855892859477161218
+    second: UI and other stuff_17
+  - first:
+      213: 5702893856685670580
+    second: UI and other stuff_18
+  - first:
+      213: 4244054269906218630
+    second: UI and other stuff_19
+  - first:
+      213: -3949723019185626114
+    second: UI and other stuff_20
+  - first:
+      213: 5940453340263070876
+    second: UI and other stuff_21
+  - first:
+      213: -2402366650110652195
+    second: UI and other stuff_22
+  - first:
+      213: 8432868444725764720
+    second: UI and other stuff_23
+  - first:
+      213: 6978091384373315209
+    second: UI and other stuff_24
+  - first:
+      213: 5299638683896701937
+    second: UI and other stuff_25
+  - first:
+      213: 6106710907452473261
+    second: UI and other stuff_26
+  - first:
+      213: 3293641708981766083
+    second: UI and other stuff_27
+  - first:
+      213: -2419299556806501154
+    second: UI and other stuff_28
+  - first:
+      213: 4330184953430568303
+    second: UI and other stuff_29
+  - first:
+      213: -1744406455524364842
+    second: UI and other stuff_30
+  - first:
+      213: 1892254573420045252
+    second: UI and other stuff_31
+  - first:
+      213: 8197504633937750477
+    second: UI and other stuff_32
+  - first:
+      213: -8469166532183551592
+    second: UI and other stuff Arrow
+  - first:
+      213: 8276574063402054333
+    second: UI and other stuff_34
+  - first:
+      213: -646964806339670209
+    second: UI and other stuff_35
+  - first:
+      213: -6657975844006825567
+    second: UI and other stuff_36
+  - first:
+      213: 2569189651606776049
+    second: UI and other stuff_37
+  - first:
+      213: 7686537027287431138
+    second: UI and other stuff_38
+  - first:
+      213: 453976456615615943
+    second: UI and other stuff_39
+  - first:
+      213: 5957854018050041207
+    second: UI and other stuff_40
+  - first:
+      213: 7421848409421275340
+    second: UI and other stuff_41
+  - first:
+      213: -272256163590348813
+    second: UI and other stuff_42
+  - first:
+      213: -351681496597404106
+    second: UI and other stuff_43
+  - first:
+      213: -2708687231524228629
+    second: UI and other stuff_44
+  - first:
+      213: -1467266239656567350
+    second: UI and other stuff_45
+  - first:
+      213: 7157718632980505797
+    second: UI and other stuff_46
+  - first:
+      213: 3362317455814817160
+    second: UI and other stuff_47
+  - first:
+      213: -2087286860792934380
+    second: UI and other stuff_48
+  - first:
+      213: 4943007492964827102
+    second: UI and other stuff_49
+  - first:
+      213: 2708581817632114681
+    second: UI and other stuff_50
+  - first:
+      213: -1958338959360526678
+    second: UI and other stuff_51
+  - first:
+      213: 2594131025692973853
+    second: UI and other stuff_52
+  - first:
+      213: -3456155115194893375
+    second: UI and other stuff_53
+  - first:
+      213: 73305751234426470
+    second: UI and other stuff_54
+  - first:
+      213: -4129318738132785557
+    second: UI and other stuff_55
+  - first:
+      213: 2972190442381449665
+    second: UI and other stuff_56
+  - first:
+      213: 6754089638766264194
+    second: UI and other stuff_57
+  - first:
+      213: 2180072609417806569
+    second: UI and other stuff_58
+  - first:
+      213: -4484884249803893691
+    second: UI and other stuff_59
+  - first:
+      213: -8933973683898761559
+    second: UI and other stuff_60
+  - first:
+      213: -5346586321475530627
+    second: UI and other stuff_61
+  - first:
+      213: 3135470918432822711
+    second: UI and other stuff_62
+  - first:
+      213: 3705669038565174092
+    second: UI and other stuff_63
+  - first:
+      213: 8225534241012768527
+    second: UI and other stuff_64
+  - first:
+      213: -5936669973452273912
+    second: UI and other stuff_65
+  - first:
+      213: 4106383343146435953
+    second: UI and other stuff_66
+  - first:
+      213: -2819954391522973116
+    second: UI and other stuff_67
+  - first:
+      213: -6481446230164256436
+    second: UI and other stuff_68
+  - first:
+      213: 4867528243902416830
+    second: UI and other stuff_69
+  - first:
+      213: -8114952899822008797
+    second: UI and other stuff_70
+  - first:
+      213: -7624158812188151991
+    second: UI and other stuff_71
+  - first:
+      213: -2010899658674810567
+    second: UI and other stuff_72
+  - first:
+      213: -2252746967157394173
+    second: UI and other stuff_73
+  - first:
+      213: -2828563436548781522
+    second: UI and other stuff_74
+  - first:
+      213: -8517950598063920547
+    second: UI and other stuff_75
+  - first:
+      213: 1825874876955373371
+    second: UI and other stuff_76
+  - first:
+      213: 2382067611264594860
+    second: UI and other stuff_77
+  - first:
+      213: 4384947496161639493
+    second: UI and other stuff_78
+  - first:
+      213: -5113698942062150789
+    second: UI and other stuff_79
+  - first:
+      213: 7633579325299697085
+    second: UI and other stuff_80
+  - first:
+      213: 6346148218164709012
+    second: UI and other stuff_81
+  - first:
+      213: 6940894591035727126
+    second: UI and other stuff_82
+  - first:
+      213: -4274538079098831077
+    second: UI and other stuff_83
+  - first:
+      213: -3227275040422958557
+    second: UI and other stuff_84
+  - first:
+      213: 461761406653369742
+    second: UI and other stuff_85
+  - first:
+      213: 6417629239690483937
+    second: UI and other stuff_86
+  - first:
+      213: -5101452460897906789
+    second: UI and other stuff_87
+  - first:
+      213: 7716618411691966483
+    second: UI and other stuff_88
+  - first:
+      213: -5084861185384802306
+    second: UI and other stuff_89
+  - first:
+      213: -3400771355710471409
+    second: UI and other stuff_90
+  - first:
+      213: -4230299475271009792
+    second: UI and other stuff_91
+  - first:
+      213: -6816568090330627150
+    second: UI and other stuff_32
+  - first:
+      213: -2517189121903334007
+    second: UI and other stuff_16
+  - first:
+      213: 4725416084176311524
+    second: UI and other stuff_0
+  - first:
+      213: -6029599858429429750
+    second: UI and other stuff_1
+  - first:
+      213: -3071235916215860789
+    second: UI and other stuff_2
+  - first:
+      213: -6015097577918478186
+    second: UI and other stuff_3
+  - first:
+      213: 638299115658754798
+    second: UI and other stuff_4
+  - first:
+      213: -7963829779156657046
+    second: UI and other stuff_5
+  - first:
+      213: -4318629120558690705
+    second: UI and other stuff_6
+  - first:
+      213: 6764155076795981256
+    second: UI and other stuff_7
+  - first:
+      213: 2646609205384407009
+    second: UI and other stuff_8
+  - first:
+      213: -6440777603294215094
+    second: UI and other stuff_9
+  - first:
+      213: 3294318008714839013
+    second: UI and other stuff_11
+  - first:
+      213: -67700777453918578
+    second: UI and other stuff_12
+  - first:
+      213: 7586895665657859659
+    second: UI and other stuff_13
+  - first:
+      213: 8986510259666685117
+    second: UI and other stuff_14
+  - first:
+      213: 3161841081266953802
+    second: UI and other stuff_15
+  - first:
+      213: -172951794524976344
+    second: UI and other stuff_17
+  - first:
+      213: -859304346268300936
+    second: UI and other stuff_20
+  - first:
+      213: -2492771418953934943
+    second: UI and other stuff_21
+  - first:
+      213: -1386077767837599262
+    second: UI and other stuff_22
+  - first:
+      213: -7694040262224910835
+    second: UI and other stuff_23
+  - first:
+      213: -3243441562827485931
+    second: UI and other stuff_24
+  - first:
+      213: 8697853711363877742
+    second: UI and other stuff_25
+  - first:
+      213: -1042681941583859755
+    second: UI and other stuff_26
+  - first:
+      213: 6965464141723567206
+    second: UI and other stuff_27
+  - first:
+      213: -3793319215571845132
+    second: UI and other stuff_28
+  - first:
+      213: -2240611822786254680
+    second: UI and other stuff_29
+  - first:
+      213: -8554445842381235830
+    second: UI and other stuff_30
+  - first:
+      213: -6836195593276114802
+    second: UI and other stuff_31
+  - first:
+      213: 9206084615254409825
+    second: UI and other stuff_35
+  - first:
+      213: 5355669928275133614
+    second: UI and other stuff_36
+  - first:
+      213: -191815541716386726
+    second: UI and other stuff_37
+  - first:
+      213: 2485949945232504230
+    second: UI and other stuff_40
+  - first:
+      213: 6376295121833628507
+    second: UI and other stuff_41
+  - first:
+      213: -9166930587943301259
+    second: UI and other stuff_42
+  - first:
+      213: 4848936547949888090
+    second: UI and other stuff_43
+  - first:
+      213: 8769443152277079155
+    second: UI and other stuff_44
+  - first:
+      213: -2180006095011251864
+    second: UI and other stuff_45
+  - first:
+      213: 2177317453404657196
+    second: UI and other stuff_48
+  - first:
+      213: -4377171135107041753
+    second: UI and other stuff_49
+  - first:
+      213: -7858393948837978515
+    second: UI and other stuff_50
+  - first:
+      213: 1659014982951047156
+    second: UI and other stuff_51
+  - first:
+      213: -8129213141389966167
+    second: UI and other stuff_52
+  - first:
+      213: -3010313019622727139
+    second: UI and other stuff_53
+  - first:
+      213: -3729198182019103871
+    second: UI and other stuff_54
+  - first:
+      213: 4331415052933924637
+    second: UI and other stuff_55
+  - first:
+      213: 7233869429626010629
+    second: UI and other stuff_56
+  - first:
+      213: 4527993615975267770
+    second: UI and other stuff_57
+  - first:
+      213: 7927736325788424257
+    second: UI and other stuff_58
+  - first:
+      213: -2074571403878411187
+    second: UI and other stuff_59
+  - first:
+      213: 3498971492395598659
+    second: UI and other stuff_60
+  - first:
+      213: 6308880330819648283
+    second: UI and other stuff_61
+  - first:
+      213: -9126275554451124908
+    second: UI and other stuff_62
+  - first:
+      213: 498458338458103860
+    second: UI and other stuff_63
+  - first:
+      213: -7593429007893016376
+    second: UI and other stuff_64
+  - first:
+      213: -4307462999629241381
+    second: UI and other stuff_65
+  - first:
+      213: -7835670714163080334
+    second: UI and other stuff_66
+  - first:
+      213: -6835391198612743060
+    second: UI and other stuff_67
+  - first:
+      213: 1631861562921096951
+    second: UI and other stuff_68
+  - first:
+      213: 6095388823941801940
+    second: UI and other stuff_69
+  - first:
+      213: -8802127938642992269
+    second: UI and other stuff_70
+  - first:
+      213: -1762053031117131403
+    second: UI and other stuff_71
+  - first:
+      213: -1305497186351445450
+    second: UI and other stuff_72
+  - first:
+      213: -1617007512498629103
+    second: UI and other stuff_73
+  - first:
+      213: -6242988455951057613
+    second: UI and other stuff_74
+  - first:
+      213: 2109405600332264733
+    second: UI and other stuff_75
+  - first:
+      213: -6403398150216708380
+    second: UI and other stuff_76
+  - first:
+      213: 3489063228247088602
+    second: UI and other stuff_77
+  - first:
+      213: -6663394754868449918
+    second: UI and other stuff_78
+  - first:
+      213: 7375969112189162908
+    second: UI and other stuff_79
+  - first:
+      213: 8419562676340838370
+    second: UI and other stuff_80
+  - first:
+      213: -2159232743606762058
+    second: UI and other stuff_81
+  - first:
+      213: 4451787250588125197
+    second: UI and other stuff_82
+  - first:
+      213: 7642471823433600547
+    second: UI and other stuff_83
+  - first:
+      213: -5005189744502407458
+    second: UI and other stuff_84
+  - first:
+      213: -6730080613461469947
+    second: UI and other stuff_85
+  - first:
+      213: -8688105124237623195
+    second: UI and other stuff_86
+  - first:
+      213: 1652085204884603868
+    second: UI and other stuff_87
+  - first:
+      213: -5916604924790394176
+    second: UI and other stuff_88
+  - first:
+      213: -846809289454681078
+    second: UI and other stuff_89
+  - first:
+      213: 2789070792093118930
+    second: UI and other stuff_90
+  - first:
+      213: 5961279026208869034
+    second: UI and other stuff_91
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI and other stuff_32
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 402
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b38494007fa661a0800000000000000
+      internalID: -6816568090330627150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 553
+        width: 280
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d697c84d5211dd0800000000000000
+      internalID: -2517189121903334007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 939
+        width: 274
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e41f3964ec049140800000000000000
+      internalID: 4725416084176311524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 867
+        width: 276
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08719cffde825ca0800000000000000
+      internalID: -6029599858429429750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 790
+        width: 278
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc14880d437c065d0800000000000000
+      internalID: -3071235916215860789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 733
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6984bda4f94168ca0800000000000000
+      internalID: -6015097577918478186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_4
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 732
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea3941f9a1bbd800800000000000000
+      internalID: 638299115658754798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_5
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 729
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c90b1920bca7190800000000000000
+      internalID: -7963829779156657046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_6
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 729
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e017822b52114c0800000000000000
+      internalID: -4318629120558690705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 711
+        width: 280
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd541e443b1fdd50800000000000000
+      internalID: 6764155076795981256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_8
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 581
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7673acc05aab420800000000000000
+      internalID: 2646609205384407009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_9
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 664
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a444b5ef4e2cd96a0800000000000000
+      internalID: -6440777603294215094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_10
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 632
+        width: 280
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132c21590e21d06b0800000000000000
+      internalID: -5328582028326419919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 564
+        width: 118
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8667d8608a7f0ff0800000000000000
+      internalID: -67700777453918578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_13
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 564
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ecc7b29611a4960800000000000000
+      internalID: 7586895665657859659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 564
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc06d5f77f76bc70800000000000000
+      internalID: 8986510259666685117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_15
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 578
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e572516bd11eb20800000000000000
+      internalID: 3161841081266953802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 452
+        width: 280
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b821c524d899df0800000000000000
+      internalID: -172951794524976344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 447
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0c1875fbfb42f40800000000000000
+      internalID: 5702893856685670580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_19
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 407
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e6d3d5fd8e5ea30800000000000000
+      internalID: 4244054269906218630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_20
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 435
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8798ab6ff332314f0800000000000000
+      internalID: -859304346268300936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_21
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 435
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7110b0a95e76dd0800000000000000
+      internalID: -2492771418953934943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_22
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 464
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e939f82d99a3cce0800000000000000
+      internalID: -1386077767837599262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_23
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 464
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e7827527493590800000000000000
+      internalID: -7694040262224910835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_24
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 465
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d0ee5451bfcf2d0800000000000000
+      internalID: -3243441562827485931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_25
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 466
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b28260edbf4b870800000000000000
+      internalID: 8697853711363877742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_26
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 466
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfed2a6c46a781f0800000000000000
+      internalID: -1042681941583859755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_27
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 469
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66487277bbc4aa060800000000000000
+      internalID: 6965464141723567206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_28
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 467
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff3d24754c6b5bc0800000000000000
+      internalID: -3793319215571845132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_29
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 469
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8e84f1b6fb7e0e0800000000000000
+      internalID: -2240611822786254680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_30
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 473
+        width: 39
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a899c8a64d0884980800000000000000
+      internalID: -8554445842381235830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_31
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 383
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88bfafd354f021a0800000000000000
+      internalID: -6836195593276114802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_34
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 402
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27a4e624c4cd270800000000000000
+      internalID: 8276574063402054333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_35
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 384
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1628d608e2592cf70800000000000000
+      internalID: 9206084615254409825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_36
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 396
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4c4199c69235a40800000000000000
+      internalID: 5355669928275133614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_40
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 377
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a53cf6dd4edf7220800000000000000
+      internalID: 2485949945232504230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_41
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 337
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5313f751a62d7850800000000000000
+      internalID: 6376295121833628507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_42
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 382
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f0af0e23588c080800000000000000
+      internalID: -9166930587943301259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_43
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 384
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5246fe7912ea4340800000000000000
+      internalID: 4848936547949888090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_45
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 386
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869faaab1001fb1e0800000000000000
+      internalID: -2180006095011251864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_47
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 396
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885ffe769e959ae20800000000000000
+      internalID: 3362317455814817160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_48
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 379
+        width: 274
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26517d10b2673e10800000000000000
+      internalID: 2177317453404657196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_49
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 386
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726f9da3b0a2143c0800000000000000
+      internalID: -4377171135107041753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_50
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 301
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ede6ec65061f290800000000000000
+      internalID: -7858393948837978515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_51
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 301
+        width: 45
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff09df4651060710800000000000000
+      internalID: 1659014982951047156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_52
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 329
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a48304e7bb3f2f80800000000000000
+      internalID: -8129213141389966167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_53
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 331
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1267aa02483936d0800000000000000
+      internalID: -3010313019622727139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_54
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 283
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18308b7f20a3f3cc0800000000000000
+      internalID: -3729198182019103871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_55
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 294
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1708e4ba074c1c30800000000000000
+      internalID: 4331415052933924637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_56
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 283
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c7a686bedd36460800000000000000
+      internalID: 7233869429626010629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_57
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 296
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd3171143aa6de30800000000000000
+      internalID: 4527993615975267770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_58
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 282
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14854937f2af40e60800000000000000
+      internalID: 7927736325788424257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_59
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 246
+        width: 119
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44d4aabc44a533e0800000000000000
+      internalID: -2074571403878411187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_60
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 308
+        width: 272
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3434573b808de8030800000000000000
+      internalID: 3498971492395598659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_61
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 239
+        width: 272
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b34f82c35ad8750800000000000000
+      internalID: 6308880330819648283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_62
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 172
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d0c9e7cb4f85180800000000000000
+      internalID: -9126275554451124908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_63
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 172
+        width: 47
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4307027c731eae600800000000000000
+      internalID: 498458338458103860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_64
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 186
+        width: 14
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0d36d8c88be9690800000000000000
+      internalID: -7593429007893016376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_65
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 179
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e5f74931d834c0800000000000000
+      internalID: -4307462999629241381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_66
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 187
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273d069200b124390800000000000000
+      internalID: -7835670714163080334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_67
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 197
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c1bd99befc321a0800000000000000
+      internalID: -6835391198612743060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_68
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 155
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6968c027985a610800000000000000
+      internalID: 1631861562921096951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_69
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 197
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7efe237db279450800000000000000
+      internalID: 6095388823941801940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_70
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 188
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a4a5864f88d580800000000000000
+      internalID: -8802127938642992269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_71
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 79
+        width: 293
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571fcdc9a1eeb87e0800000000000000
+      internalID: -1762053031117131403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_72
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 78
+        width: 300
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a0040d931f1ede0800000000000000
+      internalID: -1305497186351445450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_73
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 87
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11691621c3c3f89e0800000000000000
+      internalID: -1617007512498629103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_74
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 92
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d3c2a73137c59a0800000000000000
+      internalID: -6242988455951057613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_75
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 67
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d153607a73d164d10800000000000000
+      internalID: 2109405600332264733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_78
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 77
+        width: 14
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6ddd46cdd683a0800000000000000
+      internalID: -6663394754868449918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_79
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 70
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95d946f3d4bc5660800000000000000
+      internalID: 7375969112189162908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_80
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 78
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efce6735ab48d470800000000000000
+      internalID: 8419562676340838370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_81
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 79
+        width: 14
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b54de1824dd802e0800000000000000
+      internalID: -2159232743606762058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_82
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 73
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d080be6faece7cd30800000000000000
+      internalID: 4451787250588125197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_83
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 81
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e01b1c1a38f0a60800000000000000
+      internalID: 7642471823433600547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_84
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 79
+        width: 14
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede718d227ef98ab0800000000000000
+      internalID: -5005189744502407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_85
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 73
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d2ece653f992a0800000000000000
+      internalID: -6730080613461469947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_86
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 81
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560c09acb66ad6780800000000000000
+      internalID: -8688105124237623195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_87
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 79
+        width: 14
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd343df9db26de610800000000000000
+      internalID: 1652085204884603868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_88
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 73
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2ba8d1b2ff3eda0800000000000000
+      internalID: -5916604924790394176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_89
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 81
+        width: 16
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a048d8510778f34f0800000000000000
+      internalID: -846809289454681078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_90
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 92
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1b028bb15c4b620800000000000000
+      internalID: 2789070792093118930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff_11
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 419
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc9376826c7de3b0800000000000000
+      internalID: -5481588408835662670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI and other stuff Arrow
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 106
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891929919e9777a80800000000000000
+      internalID: -8469166532183551592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
