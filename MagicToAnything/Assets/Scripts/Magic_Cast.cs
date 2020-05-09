@@ -17,6 +17,12 @@ public class Magic_Cast : MonoBehaviour
     Vector3 MousePos;
     [SerializeField] Transform axis;
 
+    //para magias que precisam segurar
+
+    bool FirstClick = true;
+    Vector3 pointAxis;
+    int SidePoint;
+
     void Start()
     {
         Cam = Camera.main;
@@ -47,7 +53,7 @@ public class Magic_Cast : MonoBehaviour
         //MousePos = new Vector3(MousePos.x, MousePos.y , 0);
         MousePos = new Vector3(MousePos.x - axis.position.x, MousePos.y - axis.position.y, 0);
         Dot.transform.position = MousePos;
-        //transform.eulerAngles = new Vector3(0, 0, Vector3.Angle((Vector3.right), MousePos) * lado);
+        //transform.eulerAngles = new Vector3(0, 0, Vector3.Angle((Vector3.right), MousePos - axis.position) * lado);
         /*if (Mathf.Abs(MousePos.x) > 0)
         {
             sprite.transform.localScale = new Vector3(-(MousePos.x / Mathf.Abs(MousePos.x)), 1, 1);
@@ -83,8 +89,17 @@ public class Magic_Cast : MonoBehaviour
             }
             else
             {
-                TrgtMagicTarget = null;
-                Dot.transform.GetChild(0).gameObject.SetActive(false);
+                if(magic.Effect != (int)Magic.EffectMagic.Wind && FirstClick)
+                {
+                    TrgtMagicTarget = null;
+                    Dot.transform.GetChild(0).gameObject.SetActive(false);
+                }
+                else if(TrgtMagicTarget != null)
+                {
+
+                    Dot.transform.GetChild(0).position = TrgtMagicTarget.transform.position;
+                }
+
             }
         }
 
@@ -95,27 +110,90 @@ public class Magic_Cast : MonoBehaviour
             ChangeMagic(IdMmagic + (int)Input.mouseScrollDelta.y);
         }
 
-        //usar a magia
-        if (Input.GetMouseButtonDown(0))
+        //caso não seja vento, vento precisa segurar para ajeitar o alvo
+        if (magic.Effect != (int)Magic.EffectMagic.Wind || magic.Type == (int)Magic.TypeMagic.Ball)
         {
-            switch (magic.Type)
+            //usar a magia
+            if (Input.GetMouseButtonDown(0))
             {
-                case (int)Magic.TypeMagic.Trap:
+                switch (magic.Type)
+                {
+                    case (int)Magic.TypeMagic.Trap:
 
-                    CastTrap(MousePos);
-                    break;
-                case (int)Magic.TypeMagic.Ball:
+                        CastTrap(MousePos);
+                        break;
+                    case (int)Magic.TypeMagic.Ball:
 
-                    CastBall(new Vector3(0, 0, Vector3.Angle((Vector3.up), MousePos) * lado));
-                    break;
-                case (int)Magic.TypeMagic.Target:
-                    if(TrgtMagicTarget != null)
-                    {
-                        CastTarget(TrgtMagicTarget);
-                    }
-                    break;
-                default:
-                    break;
+                        CastBall(new Vector3(0, 0, Vector3.Angle((Vector3.up), MousePos) * lado));
+                        break;
+                    case (int)Magic.TypeMagic.Target:
+                        if (TrgtMagicTarget != null)
+                        {
+                            CastTarget(TrgtMagicTarget);
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButton(0))
+            {
+                if (FirstClick)
+                {
+                    pointAxis = MousePos;
+
+                    Dot.GetComponent<Image>().enabled = false;
+                    Dot.transform.GetChild(1).gameObject.SetActive(true);
+
+                    FirstClick = false;
+                }
+
+                if (Cam.ScreenToWorldPoint(Input.mousePosition).y - pointAxis.y <= 0)
+                {
+                    SidePoint = -1;
+                }
+                else
+                {
+                    SidePoint = 1;
+                }
+
+                Dot.transform.GetChild(1).position = pointAxis;
+                //Dot.transform.GetChild(1).eulerAngles = new Vector3(0, 0, Vector3.Angle((Vector3.right), MousePos) * SidePoint);
+                Dot.transform.GetChild(1).eulerAngles = new Vector3(0, 0, Vector3.Angle((Vector3.right), MousePos - pointAxis) * SidePoint);
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                switch (magic.Type)
+                {
+                    case (int)Magic.TypeMagic.Trap:
+
+                        CastTrap(pointAxis);
+                        break;
+                    case (int)Magic.TypeMagic.Ball:
+
+                        CastBall(new Vector3(0, 0, Vector3.Angle((Vector3.up), MousePos) * lado));
+                        break;
+                    case (int)Magic.TypeMagic.Target:
+                        if (TrgtMagicTarget != null)
+                        {
+                            CastTarget(TrgtMagicTarget);
+
+                            TrgtMagicTarget = null;
+                            Dot.transform.GetChild(0).gameObject.SetActive(false);
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
+                Dot.GetComponent<Image>().enabled = true;
+                Dot.transform.GetChild(1).gameObject.SetActive(false);
+
+                FirstClick = true;
             }
         }
     }
@@ -149,6 +227,13 @@ public class Magic_Cast : MonoBehaviour
     {
         GameObject Createdmagic = Instantiate(SaveMagic.saveMagic.BaseMagicTypes[0], info, Quaternion.identity);
 
+        if(magic.Effect == (int)Magic.EffectMagic.Wind)
+        {
+            Createdmagic.transform.eulerAngles = Dot.transform.GetChild(1).eulerAngles;
+            Createdmagic.transform.Rotate(new Vector3(0, 0, -90));
+            Createdmagic.transform.GetChild(0).transform.up = Vector3.up;
+        }
+
         Magic m = Createdmagic.GetComponent<Magic>();
         m.Tipo = (Magic.TypeMagic)magic.Type;
         m.TypeM = magic.TModifier;
@@ -174,6 +259,12 @@ public class Magic_Cast : MonoBehaviour
     void CastTarget(GameObject trgt)
     {
         GameObject CreatedMagic = Instantiate(SaveMagic.saveMagic.BaseMagicTypes[2], trgt.transform);
+
+        if (magic.Effect == (int)Magic.EffectMagic.Wind)
+        {
+            CreatedMagic.transform.eulerAngles = Dot.transform.GetChild(1).eulerAngles;
+            CreatedMagic.transform.Rotate(new Vector3(0, 0, -90));
+        }
 
         Magic m = CreatedMagic.GetComponent<Magic>();
         m.Tipo = (Magic.TypeMagic)magic.Type;

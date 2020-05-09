@@ -101,6 +101,7 @@ public class Magic : MonoBehaviour
     {
         yield return null;
         print("got you!! " + transform.parent);
+        OnTriggerEnter2D(transform.parent.GetComponent<Collider2D>());
         yield return new WaitForSeconds(1);
         //aplicar efeito
 
@@ -139,7 +140,7 @@ public class Magic : MonoBehaviour
 
     void Wind(Rigidbody2D rb)
     {
-        //rb.AddForce(transform.up * 10 * EfffectM, ForceMode2D.Impulse);
+        rb.AddForce(transform.up * 10 * EfffectM, ForceMode2D.Impulse);
     }
 
 
