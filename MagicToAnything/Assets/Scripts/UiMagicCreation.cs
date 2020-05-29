@@ -27,7 +27,7 @@ public class UiMagicCreation : MonoBehaviour
         NMagic.Type = m;
         switch (m)
         {
-            case (int)Magic.TypeMagic.Trap:
+            case (int)Magic.TypeMagic.Circle:
                 ModifierText.text = "Activation delay:";
                 ModifierValue.placeholder.GetComponent<TextMeshProUGUI>().text = "Default value: 1";
                 ValueModifier("1");

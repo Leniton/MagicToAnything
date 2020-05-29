@@ -110,7 +110,7 @@ public class Magic_Cast : MonoBehaviour
             ChangeMagic(IdMmagic + (int)Input.mouseScrollDelta.y);
         }
 
-        //caso não seja vento, vento precisa segurar para ajeitar o alvo
+        //caso não seja vento, vento precisa segurar para ajeitar a direção
         if (magic.Effect != (int)Magic.EffectMagic.Wind || magic.Type == (int)Magic.TypeMagic.Ball)
         {
             //usar a magia
@@ -118,9 +118,9 @@ public class Magic_Cast : MonoBehaviour
             {
                 switch (magic.Type)
                 {
-                    case (int)Magic.TypeMagic.Trap:
+                    case (int)Magic.TypeMagic.Circle:
 
-                        CastTrap(MousePos);
+                        CastCircle(MousePos);
                         break;
                     case (int)Magic.TypeMagic.Ball:
 
@@ -169,9 +169,9 @@ public class Magic_Cast : MonoBehaviour
             {
                 switch (magic.Type)
                 {
-                    case (int)Magic.TypeMagic.Trap:
+                    case (int)Magic.TypeMagic.Circle:
 
-                        CastTrap(pointAxis);
+                        CastCircle(pointAxis);
                         break;
                     case (int)Magic.TypeMagic.Ball:
 
@@ -223,7 +223,7 @@ public class Magic_Cast : MonoBehaviour
         }
     }
 
-    void CastTrap(Vector3 info)
+    void CastCircle(Vector3 info)
     {
         GameObject Createdmagic = Instantiate(SaveMagic.saveMagic.BaseMagicTypes[0], info, Quaternion.identity);
 

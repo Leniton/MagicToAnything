@@ -5,7 +5,7 @@ using UnityEngine;
 public class Magic : MonoBehaviour
 {
 
-    public enum TypeMagic { Trap, Ball, Target }
+    public enum TypeMagic { Circle, Ball, Target }
     public enum TargetMagic { Self, Ally, Enemy, Any }
     public enum EffectMagic { Wind, Damage, Heal, Poison }
 
@@ -39,8 +39,8 @@ public class Magic : MonoBehaviour
         //tipo
         switch (Tipo)
         {
-            case TypeMagic.Trap:
-                StartCoroutine(MagicTrap());
+            case TypeMagic.Circle:
+                StartCoroutine(MagicCircle());
                 break;
             case TypeMagic.Ball:
                 StartCoroutine(MagicBall());
@@ -54,7 +54,7 @@ public class Magic : MonoBehaviour
     }
 
     #region Type
-    IEnumerator MagicTrap()
+    IEnumerator MagicCircle()
     {
         //print("Trap setled");
         float time = 0;
