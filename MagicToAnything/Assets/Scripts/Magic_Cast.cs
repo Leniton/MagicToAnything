@@ -80,24 +80,28 @@ public class Magic_Cast : MonoBehaviour
 
                 }
 
-                if (c.gameObject != TrgtMagicTarget)
+                if (c.gameObject != TrgtMagicTarget && c.GetComponent<HP_base>() != null)
                 {
                     TrgtMagicTarget = c.gameObject;
                     Dot.transform.GetChild(0).gameObject.SetActive(true);
                 }
-                Dot.transform.GetChild(0).position = c.transform.position;
+                Dot.transform.GetChild(0).position = TrgtMagicTarget.transform.position;
             }
             else
             {
-                if(magic.Effect != (int)Magic.EffectMagic.Wind && FirstClick)
+                if(magic.Effect != (int)Magic.EffectMagic.Wind || FirstClick)
                 {
                     TrgtMagicTarget = null;
-                    Dot.transform.GetChild(0).gameObject.SetActive(false);
                 }
-                else if(TrgtMagicTarget != null)
+
+                if(TrgtMagicTarget != null)
                 {
 
                     Dot.transform.GetChild(0).position = TrgtMagicTarget.transform.position;
+                }
+                else
+                {
+                    Dot.transform.GetChild(0).gameObject.SetActive(false);
                 }
 
             }
@@ -194,6 +198,7 @@ public class Magic_Cast : MonoBehaviour
                 Dot.transform.GetChild(1).gameObject.SetActive(false);
 
                 FirstClick = true;
+                //TrgtMagicTarget = null;
             }
         }
     }
