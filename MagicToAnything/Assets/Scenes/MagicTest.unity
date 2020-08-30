@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 720663181}
   - component: {fileID: 720663182}
   - component: {fileID: 720663183}
+  - component: {fileID: 720663184}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -626,7 +627,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &720663183
 MonoBehaviour:
@@ -644,6 +645,21 @@ MonoBehaviour:
   HP: 100
   Invicible: 1
   BlockHeal: 1
+--- !u!114 &720663184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720663178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8dd2cd58b57ac47a6b10767a626d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocidade: 5
+  "Acelera\xE7\xE3o": 1
+  "Desacelera\xE7\xE3o": 1
 --- !u!1 &764170073
 GameObject:
   m_ObjectHideFlags: 0

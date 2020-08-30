@@ -225,6 +225,7 @@ public class Magic_Cast : MonoBehaviour
         else
         {
             Dot.GetComponent<Image>().color = Color.white;
+            Dot.transform.GetChild(0).gameObject.SetActive(false);
         }
     }
 

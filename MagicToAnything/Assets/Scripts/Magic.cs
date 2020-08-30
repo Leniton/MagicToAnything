@@ -7,7 +7,7 @@ public class Magic : MonoBehaviour
 
     public enum TypeMagic { Circle, Ball, Target }
     public enum TargetMagic { Self, Ally, Enemy, Any }
-    public enum EffectMagic { Wind, Damage, Heal, Poison }
+    public enum EffectMagic { Wind, Fire, Shock, Ice }
 
     public TypeMagic Tipo;
     public float TypeM;
@@ -58,7 +58,7 @@ public class Magic : MonoBehaviour
     {
         //print("Trap setled");
         float time = 0;
-        SpriteRenderer r = GetComponent<SpriteRenderer>();
+        SpriteRenderer r = transform.GetChild(0).GetComponent<SpriteRenderer>();
         //Material m = GetComponent<MeshRenderer>().material;
         Color c = r.color;
         do
@@ -112,23 +112,28 @@ public class Magic : MonoBehaviour
     void OnTriggerEnter2D(Collider2D c)
     {
         print("boom");
-        print(c);
         //checar o alvo
-        //ativar efeito
-        switch (Efeito)
+        if (c.GetComponent<TopDown_Movement>() != null)
         {
-            case EffectMagic.Wind:
-                Wind(c.GetComponent<Rigidbody2D>());
-                break;
-            case EffectMagic.Damage:
-                break;
-            case EffectMagic.Heal:
-                break;
-            case EffectMagic.Poison:
-                break;
-            default:
-                break;
+            print(c);
+            //ativar efeito
+            switch (Efeito)
+            {
+                case EffectMagic.Wind:
+                    //print("wind effect");
+                    Wind(c.GetComponent<TopDown_Movement>());
+                    break;
+                case EffectMagic.Fire:
+                    break;
+                case EffectMagic.Shock:
+                    break;
+                case EffectMagic.Ice:
+                    break;
+                default:
+                    break;
+            }
         }
+
         if(Tipo == TypeMagic.Ball)
         {
             Destroy(gameObject);
@@ -141,6 +146,10 @@ public class Magic : MonoBehaviour
     void Wind(Rigidbody2D rb)
     {
         rb.AddForce(transform.up * 10 * EfffectM, ForceMode2D.Impulse);
+    }
+    void Wind(TopDown_Movement td)
+    {
+        td.inflictForce(transform.up * 10 * EfffectM, 1);
     }
 
 
