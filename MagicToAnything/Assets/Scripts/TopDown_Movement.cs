@@ -16,7 +16,7 @@ public class TopDown_Movement : MonoBehaviour
 	int vertical, horizontal;
 	Vector2 AfflictedForce;
 
-	public bool up, down, left, right;
+	[HideInInspector]public bool up, down, left, right;
 
 	void Start()
     {
@@ -25,28 +25,28 @@ public class TopDown_Movement : MonoBehaviour
 
     void Update()
     {
-		if (Input.GetKeyDown(KeyCode.A))
+		if (left)
 		{
 			horizontal = -1;
 		}
-		else if (Input.GetKeyDown(KeyCode.D))
+		else if (right)
 		{
 			horizontal = 1;
 		}
-		else if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+		else if (!left && !right)
 		{
 			horizontal = 0;
 		}
 
-		if (Input.GetKeyDown(KeyCode.W))
+		if (up)
 		{
 			vertical = 1;
 		}
-		else if (Input.GetKeyDown(KeyCode.S))
+		else if (down)
 		{
 			vertical = -1;
 		}
-		else if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
+		else if (!up && !down)
 		{
 			vertical = 0;
 		}

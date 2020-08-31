@@ -80,7 +80,7 @@ public class Magic_Cast : MonoBehaviour
 
                 }
 
-                if (c.gameObject != TrgtMagicTarget && c.GetComponent<HP_base>() != null)
+                if (c.gameObject != TrgtMagicTarget && c.GetComponent<TopDown_Movement>() != null)
                 {
                     TrgtMagicTarget = c.gameObject;
                     Dot.transform.GetChild(0).gameObject.SetActive(true);

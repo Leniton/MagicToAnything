@@ -509,8 +509,9 @@ GameObject:
   - component: {fileID: 720663179}
   - component: {fileID: 720663181}
   - component: {fileID: 720663182}
-  - component: {fileID: 720663183}
   - component: {fileID: 720663184}
+  - component: {fileID: 720663185}
+  - component: {fileID: 720663183}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -638,13 +639,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 720663178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 483dd98de01ca8848b69703cf5caa186, type: 3}
+  m_Script: {fileID: 11500000, guid: 477ca3952de4f174bb747b49fb3e0d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MAX_HP: 100
-  HP: 100
-  Invicible: 1
-  BlockHeal: 1
 --- !u!114 &720663184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,6 +657,24 @@ MonoBehaviour:
   Velocidade: 5
   "Acelera\xE7\xE3o": 1
   "Desacelera\xE7\xE3o": 1
+  up: 0
+  down: 0
+  left: 0
+  right: 0
+--- !u!114 &720663185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720663178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c21014289b77e64fb6cf511943e4b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: 0
+  GoalObject: {fileID: 0}
 --- !u!1 &764170073
 GameObject:
   m_ObjectHideFlags: 0
