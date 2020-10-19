@@ -114,7 +114,7 @@ public class Magic_Cast : MonoBehaviour
             ChangeMagic(IdMmagic + (int)Input.mouseScrollDelta.y);
         }
 
-        //caso não seja vento, vento precisa segurar para ajeitar a direção
+        //caso não seja vento, magia de vento precisa segurar para escolher a direção
         if (magic.Effect != (int)Magic.EffectMagic.Wind || magic.Type == (int)Magic.TypeMagic.Ball)
         {
             //usar a magia
